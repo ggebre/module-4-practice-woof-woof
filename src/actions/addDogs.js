@@ -10,5 +10,10 @@ const addDog = dog => {
         dog
     }
 }
+const filter = () => {
+    return {
+        type: "FILTER_ON"
+    }
+}
 
-export { addDogs, addDog }
+export { addDogs, addDog, filter }
